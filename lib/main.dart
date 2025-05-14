@@ -40,16 +40,7 @@ class _HomePageState extends State<HomePage> {
       body: Stack(
         children: [
           // Imagen de fondo (opcional, ahora se ajusta en un contenedor)
-          Container(
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                image: NetworkImage(
-                  'https://images.unsplash.com/photo-1568901349375-23c9d2656f3e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Imagen de fondo
-                ),
-                fit: BoxFit.cover,
-              ),
-            ),
-          ),
+
           SafeArea(
             child: Padding(
               padding: const EdgeInsets.all(16.0),
