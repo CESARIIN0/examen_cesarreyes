@@ -76,7 +76,7 @@ class _HomePageState extends State<HomePage> {
       children: [
         SizedBox(height: 8.0),
         Image.network(
-          "https://github.com/CESARIIN0/imagen2/blob/main/imagen.png",
+          "https://github.com/CESARIIN0/imagen2/blob/main/imagen.png", // IMAGEN MI CHAVO
           height: 200.0,
         ),
         SizedBox(height: 32.0),
@@ -132,7 +132,7 @@ class _HomePageState extends State<HomePage> {
         ),
         SizedBox(height: 8.0),
         Image.network(
-          "https://github.com/CESARIIN0/imagen2/blob/main/imagen.png"
+          "https://github.com/CESARIIN0/imagen2/blob/main/imagen.png" // IMAGEN MI CHAVO
           height: 150.0,
         ),
         SizedBox(height: 32.0),
